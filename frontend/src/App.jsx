@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav } from './components';
+import { Nav, Footer } from './components';
 import { Routes, Route } from 'react-router-dom';
 //import './css/normalize.css';
 import './css/App.css';
@@ -16,8 +16,13 @@ const App = () => {
       <main>
         <Routes>
           <Route path="/" exact element={<Inicio />} />
+
         </Routes>
       </main>
+
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };
