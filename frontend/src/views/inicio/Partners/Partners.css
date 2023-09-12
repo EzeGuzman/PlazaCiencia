@@ -1,0 +1,27 @@
+.partners {
+  padding: 2.5rem;
+}
+
+.title__partners {
+  padding: 2rem;
+}
+
+.card__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: block;
+  text-align: center;
+  margin: 2.5rem;
+  background-color: #ed8634;
+  padding: 5rem;
+  border-radius: 25px;
+  flex: 1;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.partner__name {
+  font-size: 2rem;
+}
