@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: 'Exo 2', sans-serif;
+    }
+    .pie{
+        background: linear-gradient(white, blue);;
+    }
+
+    span{
+        font-size: 23px;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        align-items: center;
+    }
+    .logotipo{
+        display: flex;
+        font-size: 18px;
+        color: black;
+    }
+    .section{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+    .section div{
+        display: flex;
+        flex-direction: column;
+    }
+    div h2{
+        color: black;
+        padding: 20px 0;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+        font-size: 2rem;
+        padding: 5px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    input{
+        background: none;
+        border: solid 2px white;
+        padding: 10px 20px;
+    }
+    button{
+        padding: 10px 20px;
+        background: white;
+        color: black;
+        font-size: 18px;
+    }
+    .derechos{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background: #2929ff;
+        color: black;
+    }
