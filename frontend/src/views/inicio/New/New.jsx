@@ -5,26 +5,28 @@ import './New.css'
 const New = () => {
   return (
     <>
+  <div class="contenedor">
     <div>
-      <div class="contenedor">
+      <div class="tarjeta">
         <img src={logo} alt="logo lorem" class="logo"></img>
-      </div>
-       <div class="nombre">La Matanza</div> 
+         <div class="nombre">La Matanza</div> 
        <div class="descripcion">Municipio de la Matanza</div>
+      </div>
     </div>
     <div>
-    <div class="contenedor">
-      <img src={logo} alt="logo lorem" class="logo"></img>
+      <div class="tarjeta">
+        <img src={logo} alt="logo lorem" class="logo"></img>
+         <div class="nombre">La Matanza</div> 
+       <div class="descripcion">Municipio de la Matanza</div>
+      </div>
     </div>
-     <div class="nombre">La Matanza</div> 
-     <div class="descripcion">Municipio de la Matanza</div>
-  </div>
-  <div>
-    <div class="contenedor">
-      <img src={logo} alt="logo lorem" class="logo"></img>
+    <div>
+      <div class="tarjeta">
+        <img src={logo} alt="logo lorem" class="logo"></img>
+         <div class="nombre">La Matanza</div> 
+       <div class="descripcion">Municipio de la Matanza</div>
+      </div>
     </div>
-     <div class="nombre">La Matanza</div> 
-     <div class="descripcion">Municipio de la Matanza</div>
   </div>
   </>
   )
