@@ -16,23 +16,23 @@
     }
 
     span{
-        font-size: 23px;
+        font-size: 2rem;
     }
     .header{
         display: flex;
         justify-content: space-between;
-        padding: 20px;
+        padding: 1.5rem;
         align-items: center;
     }
     .logotipo{
         display: flex;
-        font-size: 18px;
+        font-size: 1.5rem;
         color: black;
     }
     .section{
         display: flex;
         justify-content: space-evenly;
-        gap: 30px;
+        gap: 2rem;
     }
     .section div{
         display: flex;
@@ -40,34 +40,35 @@
     }
     div h2{
         color: black;
-        padding: 20px 0;
+        padding: 1rem 0;
     }
     a{
         color: black;
         text-decoration: none;
-        font-size: 2rem;
-        padding: 5px;
+        font-size: 1.3rem;
+        padding: 1rem
     }
     form{
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 1rem;
     }
     input{
         background: none;
-        border: solid 2px white;
-        padding: 10px 20px;
+        border: solid 0.2rem white;
+        padding: 1rem 1rem;
     }
     button{
-        padding: 10px 20px;
+        padding: 1rem 1rem;
         background: white;
         color: black;
-        font-size: 18px;
+        font-size: 1.3rem;
     }
     .derechos{
         display: flex;
         justify-content: space-between;
-        padding: 20px;
+        padding: 1rem;
         background: #2929ff;
         color: black;
+        font-size: 1.5rem;
     }
