@@ -18,8 +18,7 @@ const App = () => {
           <Route path="/" exact element={<Inicio />} />
         </Routes>
       </main>
-
-      <footer>
+      <footer> 
         <Footer />
       </footer>
     </>
