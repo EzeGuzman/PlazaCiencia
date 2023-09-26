@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container__cover {
+    width: 100%;
+    min-height: 100vh; /* Cambiamos height a min-height para que sea relativo al contenido */
+    background-image: url(../images/Background-page.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fondo estático */
+    padding: 40px;
+    background-color: lightgreen;
+    display: flex; /* Para centrar verticalmente */
+    align-items: center; /* Para centrar verticalmente */
+    justify-content: center; /* Para centrar horizontalmente */
+    flex-direction: column; /* Alinear contenido verticalmente */
+}
+
+.cover {
+    width: 100%; /* Cambiamos max-width a width para que se ajuste al 100% del contenedor */
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en dispositivos más pequeños */
+}
+
+.container__cover .text {
+    max-width: 400px;
+    flex: 1; /* Para que el texto ocupe el espacio restante en dispositivos pequeños */
+    text-align: center; /* Centramos el texto */
+}
+
+.container__cover .text h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.container__cover .text p {
+    font-size: 18px;
+    margin-top: 20px; /* Reducimos el espacio superior para dispositivos más pequeños */
+}
+
+.container__cover .svg img {
+    width: 100%; /* Hacemos que la imagen se ajuste al ancho del contenedor */
+    max-width: 600px; /* Establecemos un máximo para evitar que sea demasiado grande */
+    animation: move-vector 4s linear infinite;
+}
+
+@keyframes move-vector {
+    0% {
+        transform: translateY(15px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(15px);
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .container__cover {
+        background-position: 50%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container__cover {
+        background-position: -100px;
+    }
+    .container__cover .svg img {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .container__cover .svg img {
+        display: none;
+    }
+    .container__cover .text {
+        max-width: 600px;
+    }
+}

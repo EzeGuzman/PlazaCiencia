@@ -1,0 +1,75 @@
+.contenedor{
+    position: relative;
+    display: flex;
+    left: 20rem;
+    width: 50rem;
+    height: 14rem;
+    background: linear-gradient(90deg, beige, #f7bd56 40%);
+    box-shadow: 1px 1px rgba(2, 2, 2, 0.514);
+    border-radius: 2rem;
+    margin: 2rem;
+}
+
+.calendario {
+    position: relative;
+    display: flex;
+    width: 15rem;
+    height: 14rem;
+    background-color: beige;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.514);
+    border-radius: 2rem;
+    justify-content: center;
+
+}
+
+.fecha {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    width: 15rem;
+    height: 2.5rem;
+    background-color: #5d9b9b;
+    box-shadow: 1px 0 rgba(0, 0, 0, 0.514);
+    border-radius: 2rem 2rem 0 0;
+    justify-content: center;
+}
+
+.mes {
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: white;
+}
+
+.dia {
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+
+.actividades {
+    font-size: 1rem;
+    font-family: sans-serif;
+    position: relative;
+    left: 10rem;
+    top: 1rem;
+    color: white;
+    line-height: 0.1rem;
+}
+
+.horarios {
+    font-size: 1rem;
+    font-family: sans-serif;
+    position: relative;
+    left: -5rem;
+    top: 4rem;
+    color: white;
+    line-height: 0.4rem;
+}
+
+.horarios2 {
+    font-size: 1rem;
+    font-family: sans-serif;
+    position: relative;
+    top: 4rem;
+    color: white;
+    line-height: 0.4rem;
+}
