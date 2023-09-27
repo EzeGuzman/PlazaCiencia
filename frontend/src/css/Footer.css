@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+
+.pie {
+    background: linear-gradient(white, blue);
+}
+
+span {
+    font-size: 2rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    align-items: center;
+}
+
+.logotipo {
+    display: flex;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en dispositivos pequeños */
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.section div {
+    display: flex;
+    flex-direction: column;
+}
+
+div h2 {
+    color: black;
+    padding: 1rem 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input {
+    background: none;
+    border: solid 0.2rem white;
+    padding: 1rem;
+}
+
+button {
+    padding: 1rem;
+    background: white;
+    color: black;
+    font-size: 1.3rem;
+}
+
+.derechos {
+    display: flex;
+    flex-wrap: wrap; /* Ajuste para dispositivos pequeños */
+    justify-content: space-between;
+    padding: 1rem;
+    background: #2929ff;
+    color: black;
+    font-size: 1.5rem;
+}
+
+/* Media query para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logotipo {
+        margin-top: 1rem;
+    }
+
+    .section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section div {
+        text-align: center;
+    }
+
+    input,
+    button {
+        width: 100%;
+    }
+}

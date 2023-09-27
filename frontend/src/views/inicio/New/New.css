@@ -1,0 +1,22 @@
+.tarjeta {
+    display: block;
+    text-align: center;
+    background-color: #ed8634;
+    padding: 5rem;
+    margin: 2.5rem;
+    border-radius: 25px;
+    width: 25rem; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.nombre {
+    font-size: 2rem;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
