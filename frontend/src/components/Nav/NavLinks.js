@@ -7,11 +7,11 @@ export const navLinks = [
   {
     id: 2,
     content: 'Actividades',
-    to: '/Actividades',
+    to: '/actividades',
   },
   {
     id: 3,
     content: 'Proyectos',
-    to: '/Proyectos',
+    to: '/proyectos',
   },
 ];

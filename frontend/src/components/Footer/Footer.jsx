@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../css/Footer.css';
+import './Footer.css';
 
 const Footer = () => {
   return (
@@ -8,7 +8,9 @@ const Footer = () => {
         <div className="header">
           <div className="logo">
             <img src="logo.png" alt="" />
-            <p className="logotipo">Secretaría de Ciencias, Tecnología y Políticas Educativas</p>
+            <p className="logotipo">
+              Secretaría de Ciencias, Tecnología y Políticas Educativas
+            </p>
           </div>
         </div>
 
