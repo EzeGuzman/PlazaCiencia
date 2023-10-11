@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 //import './css/normalize.css';
 import './css/App.css';
 
-import { Inicio, Project } from './views/index.js';
+import { Inicio, Project, Actividades } from './views/index.js';
 
 const App = () => {
   return (
@@ -17,6 +17,7 @@ const App = () => {
         <Routes>
           <Route path="/" exact element={<Inicio />} />
           <Route path="/proyectos" exact element={<Project />} />
+          <Route path="/Actividades" exact element={<Actividades />}/>
         </Routes>
       </main>
     </>

@@ -1,0 +1,112 @@
+.todo{
+    /*background:linear-gradient(180deg,#b7e5ec 50% ,beige);*/
+    padding: 5rem;
+    display: block;
+    background-image: url(./img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+/*.nubes img {
+    width: 100%;
+    max-width: 400px;
+    animation: move-vector 4s linear infinite;
+    z-index: -100;
+
+}*/
+
+.contenedor{
+    position: relative;
+    display: flex;
+    left: 3rem;
+    width: 110rem;
+    height: 30rem;
+    background: linear-gradient(90deg, beige, #f7bd56 40%);
+    box-shadow: 1px 1px rgba(2, 2, 2, 0.514);
+    border-radius: 4rem;
+    margin: 5rem;
+    z-index: 1;
+}
+
+.contenedor2{
+    position: relative;
+    display: flex;
+    left: 25rem;
+    width: 110rem;
+    height: 30rem;
+    background: linear-gradient(90deg, beige, #f7bd56 40%);
+    box-shadow: 1px 1px rgba(2, 2, 2, 0.514);
+    border-radius: 4rem;
+    margin: 5rem;
+    z-index: 1;
+}
+
+.calendario {
+    position: absolute;
+    display: flex;
+    width: 35rem;
+    height: 30rem;
+    right: 0;
+    left: -2rem;
+    background-color: beige;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.514);
+    border-radius: 2rem;
+    justify-content: center;
+}
+
+.fecha {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    width: 35rem;
+    height: 5rem;
+    background-color: #5d9b9b;
+    box-shadow: 1px 0 rgba(0, 0, 0, 0.514);
+    border-radius: 2rem 2rem 0 0;
+    justify-content: center;
+}
+
+.mes {
+    font-size: 4rem;
+    font-family: sans-serif;
+    color: white;
+}
+
+.dia {
+    font-size: 10rem;
+    font-family: sans-serif;
+    display: block;
+    margin-top: 10rem;
+}
+
+.actividades {
+    font-size: 6rem;
+    font-family: sans-serif;
+    position: relative;
+    left: 60rem;
+    top: 5rem;
+    color: white;
+    line-height: 0.1rem;
+}
+
+.horarios {
+    font-size: 2rem;
+    font-family: sans-serif;
+    position: relative;
+    left: 50rem;
+    top: 10rem;
+    color: white;
+    line-height: 3rem;
+}
+
+.horarios2 {
+    font-size: 2rem;
+    font-family: sans-serif;
+    position: relative;
+    top: 10rem;
+    left: 10rem;
+    color: white;
+    line-height: 3rem;
+}
