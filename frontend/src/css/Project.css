@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container__cover {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../views/project/images/Background-page.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px; 
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cover {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container__cover .text {
+    max-width: 100%;
+    flex: 1;
+    text-align: center;
+    padding: 20px; 
+}
+
+.container__cover .text h1 {
+    font-size: 28px; 
+    font-weight: 600;
+}
+
+.container__cover .text p {
+    font-size: 21px; 
+    margin-top: 10px;
+}
+
+.container__cover .svg img {
+    width: 100%;
+    max-width: 400px;
+    animation: move-vector 4s linear infinite;
+}
+
+@keyframes move-vector {
+    0% {
+        transform: translateY(10px); 
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .container__cover {
+        background-position: 50%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container__cover {
+        background-position: -100px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .container__cover .svg img {
+        display: none;
+    }
+    .container__cover .text {
+        max-width: 100%; 
+    }
+}

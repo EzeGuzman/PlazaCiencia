@@ -2,20 +2,13 @@
     /*background:linear-gradient(180deg,#b7e5ec 50% ,beige);*/
     padding: 5rem;
     display: block;
-    background-image: url(./img/fondo.jpg);
+    background-image: url(./img/nube.gif);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
     background-size: 100% 100%;
 }
 
-/*.nubes img {
-    width: 100%;
-    max-width: 400px;
-    animation: move-vector 4s linear infinite;
-    z-index: -100;
-
-}*/
 
 .contenedor{
     position: relative;
@@ -23,7 +16,7 @@
     left: 3rem;
     width: 110rem;
     height: 30rem;
-    background: linear-gradient(90deg, beige, #f7bd56 40%);
+    background-color:  #40a3bc85;
     box-shadow: 1px 1px rgba(2, 2, 2, 0.514);
     border-radius: 4rem;
     margin: 5rem;
@@ -36,7 +29,7 @@
     left: 25rem;
     width: 110rem;
     height: 30rem;
-    background: linear-gradient(90deg, beige, #f7bd56 40%);
+    background-color:  #40a3bc85;
     box-shadow: 1px 1px rgba(2, 2, 2, 0.514);
     border-radius: 4rem;
     margin: 5rem;
@@ -62,7 +55,7 @@
     justify-content: flex-start;
     width: 35rem;
     height: 5rem;
-    background-color: #5d9b9b;
+    background-color: #d6863f;
     box-shadow: 1px 0 rgba(0, 0, 0, 0.514);
     border-radius: 2rem 2rem 0 0;
     justify-content: center;

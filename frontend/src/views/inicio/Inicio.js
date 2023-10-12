@@ -12,7 +12,7 @@ const Inicio = () => {
     <div>
       <Hero />
       <Partners />
-     
+
     </div>
   );
 };
