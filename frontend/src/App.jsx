@@ -3,6 +3,7 @@ import { Nav, Footer } from './components';
 import { Routes, Route } from 'react-router-dom';
 //import './css/normalize.css';
 import './css/App.css';
+import { Inicio, Project } from './views/index.js';
 
 import { Inicio, Proyectos, Actividades } from './views/index.js';
 
@@ -12,10 +13,11 @@ const App = () => {
       <header>
         <Nav />
       </header>
-
       <main>
         <Routes>
           <Route path="/" exact element={<Inicio />} />
+          <Route path="/Proyectos" exact element={<Project />}
+           />
           <Route path="/proyectos" exact element={<Proyectos />} />
           <Route path="/actividades" exact element={<Actividades />} />
         </Routes>
@@ -26,4 +28,5 @@ const App = () => {
     </>
   );
 };
+
 export default App;
